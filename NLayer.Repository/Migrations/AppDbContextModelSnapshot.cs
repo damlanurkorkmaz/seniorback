@@ -17,7 +17,7 @@ namespace NLayer.Repository.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "7.0.3")
+                .HasAnnotation("ProductVersion", "8.0.0-preview.4.23259.3")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -278,7 +278,7 @@ namespace NLayer.Repository.Migrations
                         {
                             Id = 1,
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2023, 5, 10, 0, 6, 6, 381, DateTimeKind.Local).AddTicks(4977),
+                            CreatedDate = new DateTime(2023, 5, 24, 20, 35, 18, 542, DateTimeKind.Local).AddTicks(9803),
                             Name = "Kalem1",
                             Price = 100m,
                             Stock = 20
@@ -287,7 +287,7 @@ namespace NLayer.Repository.Migrations
                         {
                             Id = 2,
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2023, 5, 10, 0, 6, 6, 381, DateTimeKind.Local).AddTicks(4990),
+                            CreatedDate = new DateTime(2023, 5, 24, 20, 35, 18, 542, DateTimeKind.Local).AddTicks(9818),
                             Name = "Kalem2",
                             Price = 100m,
                             Stock = 20
@@ -296,7 +296,7 @@ namespace NLayer.Repository.Migrations
                         {
                             Id = 3,
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2023, 5, 10, 0, 6, 6, 381, DateTimeKind.Local).AddTicks(4993),
+                            CreatedDate = new DateTime(2023, 5, 24, 20, 35, 18, 542, DateTimeKind.Local).AddTicks(9819),
                             Name = "Kalem3",
                             Price = 100m,
                             Stock = 20
@@ -305,7 +305,7 @@ namespace NLayer.Repository.Migrations
                         {
                             Id = 4,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2023, 5, 10, 0, 6, 6, 381, DateTimeKind.Local).AddTicks(4996),
+                            CreatedDate = new DateTime(2023, 5, 24, 20, 35, 18, 542, DateTimeKind.Local).AddTicks(9821),
                             Name = "Kitap1",
                             Price = 100m,
                             Stock = 20
@@ -314,7 +314,7 @@ namespace NLayer.Repository.Migrations
                         {
                             Id = 5,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2023, 5, 10, 0, 6, 6, 381, DateTimeKind.Local).AddTicks(4998),
+                            CreatedDate = new DateTime(2023, 5, 24, 20, 35, 18, 542, DateTimeKind.Local).AddTicks(9823),
                             Name = "Kitap2",
                             Price = 100m,
                             Stock = 20
@@ -323,7 +323,7 @@ namespace NLayer.Repository.Migrations
                         {
                             Id = 6,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2023, 5, 10, 0, 6, 6, 381, DateTimeKind.Local).AddTicks(4999),
+                            CreatedDate = new DateTime(2023, 5, 24, 20, 35, 18, 542, DateTimeKind.Local).AddTicks(9825),
                             Name = "Kitap3",
                             Price = 100m,
                             Stock = 20
@@ -381,6 +381,9 @@ namespace NLayer.Repository.Migrations
 
                     b.Property<int>("PersonnelId")
                         .HasColumnType("int");
+
+                    b.Property<string>("PersonnelName")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime?>("UpdatedDate")
                         .HasColumnType("datetime2");

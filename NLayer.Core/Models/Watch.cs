@@ -13,6 +13,7 @@ namespace NLayer.Core.Models
         public DateTime WatchDate { get; set; }
         public string WeekendWatch { get; set; } = string.Empty;
         public string WeekWatch { get; set; } = string.Empty;
+        public string PersonnelName { get; set; }
         public int PersonnelId { get; set; }
 
         public ICollection<Personnel> Personnels { get; set; }

@@ -8,10 +8,11 @@ using System.Threading.Tasks;
 
 namespace NLayer.Core.Services
 {
-    public interface IPersonnelService : IService <Personnel>
+    public interface IPersonnelService : IService<Personnel>
     {
-    //    Task<CustomResponseDto<List<WatchWithPersonnelsDto>>> GetPersonnelsByWatchStartTime(int id);
-    //    Task<CustomResponseDto<List<PersonnelWithWatchDto>>> GetPersonnelsWithWatch();
-    //    Task<CustomResponseDto<PersonnelWithPersonnelSeniorityDto>> GetPersonnelsWithPersonnelSeniority(int personnelSeniorityId);
-    //}
+        //    Task<CustomResponseDto<List<WatchWithPersonnelsDto>>> GetPersonnelsByWatchStartTime(int id);
+        //    Task<CustomResponseDto<List<PersonnelWithWatchDto>>> GetPersonnelsWithWatch();
+        //    Task<CustomResponseDto<PersonnelWithPersonnelSeniorityDto>> GetPersonnelsWithPersonnelSeniority(int personnelSeniorityId);
+        //}
+    }
 }

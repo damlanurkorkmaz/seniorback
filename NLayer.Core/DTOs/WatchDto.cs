@@ -13,6 +13,7 @@ namespace NLayer.Core.DTOs
         public DateTime WatchDate { get; set; }
         public string WeekendWatch { get; set; }
         public string WeekWatch { get; set; }
-        public int PersonnelId { get; set; }
+        public int? PersonnelId { get; set; }
+        public string PersonnelName { get; set; }
     }
 }
