@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using NLayer.Core.DTOs;
 using NLayer.Core.Models;
@@ -9,6 +10,7 @@ using System.Linq;
 
 namespace NLayer.API.Controllers
 {
+    [Authorize]
     public class DistributionController : CustomBaseController
     {
 

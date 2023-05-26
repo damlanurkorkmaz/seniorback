@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace NLayer.Core.DTOs
 {
-    internal class RefreshTokenDto
+    public class RefreshTokenDto
     {
+        public string Token { get; set; }
     }
 }

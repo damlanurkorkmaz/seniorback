@@ -13,6 +13,7 @@ namespace NLayer.Core.Models
         public int Stock { get; set; }
         public decimal Price { get; set; }
         public int CategoryId { get; set; }
+        public string UserId { get; set; }
         public Category Category { get; set; }
         public ProductFeature ProductFeature { get; set; }
 

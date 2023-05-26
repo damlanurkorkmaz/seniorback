@@ -1,4 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using NLayer.Core.Models;
 using NLayer.Repository.Configurations;
@@ -11,7 +13,7 @@ using System.Threading.Tasks;
 
 namespace NLayer.Repository
 {
-    public class AppDbContext: DbContext
+    public class AppDbContext: IdentityDbContext<UserApp, IdentityRole,string>
     {
         public AppDbContext(DbContextOptions<AppDbContext> options): base(options)
         {
@@ -25,6 +27,8 @@ namespace NLayer.Repository
         public DbSet<Watch> Watches { get; set; }
         public DbSet<CanceledWatch> CanceledWatches { get; set; }
         public DbSet<PersonnelSeniority> PersonnelSeniorities { get; set; }
+        public DbSet<UserRefreshToken> UserRefreshTokens { get; set; }
+
 
 
         // entitiylerle ilgili ayarları yapabilmek için migration esnasında;

@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace NLayer.Core.DTOs
 {
-    internal class UserAppDto
+    public class UserAppDto
     {
+        public string Id { get; set; }
+        public string UserName { get; set; }
+        public string Email { get; set; }
     }
 }

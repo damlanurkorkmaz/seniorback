@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace NLayer.Core.DTOs
 {
-    internal class ClientTokenDto
+    public class ClientTokenDto
     {
+        public string AccessToken { get; set; }
+        public DateTime AccessTokenExpiration { get; set; }
     }
 }

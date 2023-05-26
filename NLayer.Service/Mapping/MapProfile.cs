@@ -27,6 +27,7 @@ namespace NLayer.Service.Mapping
             CreateMap<Personnel, PersonnelWithPersonnelSeniorityDto>();
             CreateMap<Watch, WatchWithPersonnelsDto>();
             CreateMap<Personnel, PersonnelWithWatchDto>();
+            CreateMap<UserAppDto, UserApp>().ReverseMap();
         }
     }
 }

@@ -1,0 +1,15 @@
+C:\Users\dmlnr\source\repos\NLayer-senior\SharedLibrary\bin\Debug\net7.0\SharedLibrary.deps.json
+C:\Users\dmlnr\source\repos\NLayer-senior\SharedLibrary\bin\Debug\net7.0\SharedLibrary.dll
+C:\Users\dmlnr\source\repos\NLayer-senior\SharedLibrary\bin\Debug\net7.0\SharedLibrary.pdb
+C:\Users\dmlnr\source\repos\NLayer-senior\SharedLibrary\obj\Debug\net7.0\SharedLibrary.csproj.AssemblyReference.cache
+C:\Users\dmlnr\source\repos\NLayer-senior\SharedLibrary\obj\Debug\net7.0\SharedLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dmlnr\source\repos\NLayer-senior\SharedLibrary\obj\Debug\net7.0\SharedLibrary.AssemblyInfoInputs.cache
+C:\Users\dmlnr\source\repos\NLayer-senior\SharedLibrary\obj\Debug\net7.0\SharedLibrary.AssemblyInfo.cs
+C:\Users\dmlnr\source\repos\NLayer-senior\SharedLibrary\obj\Debug\net7.0\SharedLibrary.csproj.CoreCompileInputs.cache
+C:\Users\dmlnr\source\repos\NLayer-senior\SharedLibrary\obj\Debug\net7.0\SharedLibrary.dll
+C:\Users\dmlnr\source\repos\NLayer-senior\SharedLibrary\obj\Debug\net7.0\refint\SharedLibrary.dll
+C:\Users\dmlnr\source\repos\NLayer-senior\SharedLibrary\obj\Debug\net7.0\SharedLibrary.pdb
+C:\Users\dmlnr\source\repos\NLayer-senior\SharedLibrary\obj\Debug\net7.0\ref\SharedLibrary.dll
+C:\Users\dmlnr\source\repos\NLayer-senior\SharedLibrary\bin\Debug\net7.0\NLayer.Core.dll
+C:\Users\dmlnr\source\repos\NLayer-senior\SharedLibrary\bin\Debug\net7.0\NLayer.Core.pdb
+C:\Users\dmlnr\source\repos\NLayer-senior\SharedLibrary\obj\Debug\net7.0\SharedLibrary.csproj.CopyComplete

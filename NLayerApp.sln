@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayer.Core", "NLayer.Core\NLayer.Core.csproj", "{C3B81A78-0931-44D6-B426-3685E8AFB745}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NLayer.Core", "NLayer.Core\NLayer.Core.csproj", "{C3B81A78-0931-44D6-B426-3685E8AFB745}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayer.Repository", "NLayer.Repository\NLayer.Repository.csproj", "{48468577-C5D7-4A11-AC78-27328095657C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NLayer.Repository", "NLayer.Repository\NLayer.Repository.csproj", "{48468577-C5D7-4A11-AC78-27328095657C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayer.Service", "NLayer.Service\NLayer.Service.csproj", "{AD6295BA-B338-4492-8ECF-91B6D87CEA19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NLayer.Service", "NLayer.Service\NLayer.Service.csproj", "{AD6295BA-B338-4492-8ECF-91B6D87CEA19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayer.API", "NLayer.API\NLayer.API.csproj", "{01568DCB-6EB4-4CB3-97DD-2A7DB20BE6F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NLayer.API", "NLayer.API\NLayer.API.csproj", "{01568DCB-6EB4-4CB3-97DD-2A7DB20BE6F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayer.Web", "NLayer.Web\NLayer.Web.csproj", "{D431C0E3-D12C-4C26-B2A6-9E4F433503AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NLayer.Web", "NLayer.Web\NLayer.Web.csproj", "{D431C0E3-D12C-4C26-B2A6-9E4F433503AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayer.Caching", "NLayer.Caching\NLayer.Caching.csproj", "{160E81DD-965F-456E-AD3C-4F1B52EB056A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NLayer.Caching", "NLayer.Caching\NLayer.Caching.csproj", "{160E81DD-965F-456E-AD3C-4F1B52EB056A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedLibrary", "SharedLibrary\SharedLibrary.csproj", "{809362E4-4C20-459F-8EF6-689DE37EA6A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{160E81DD-965F-456E-AD3C-4F1B52EB056A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{160E81DD-965F-456E-AD3C-4F1B52EB056A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{160E81DD-965F-456E-AD3C-4F1B52EB056A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{809362E4-4C20-459F-8EF6-689DE37EA6A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{809362E4-4C20-459F-8EF6-689DE37EA6A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{809362E4-4C20-459F-8EF6-689DE37EA6A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{809362E4-4C20-459F-8EF6-689DE37EA6A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -13,6 +13,7 @@ namespace NLayer.Core.Models
         public string Title { get; set; }
         public int PersonnelSeniorityId { get; set; }
         public int WatchId { get; set; }
+        public string UserId { get; set; }
         public Watch Watch { get; set; }
         public PersonnelSeniority PersonnelSeniority { get; set; }
     }

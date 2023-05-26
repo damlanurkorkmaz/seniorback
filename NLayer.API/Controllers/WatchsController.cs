@@ -1,5 +1,6 @@
 ﻿using Autofac.Core;
 using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using NLayer.Core.DTOs;
 using NLayer.Core.Models;
@@ -8,6 +9,8 @@ using NLayer.Service.Services;
 
 namespace NLayer.API.Controllers
 {
+
+    [Authorize]
     public class WatchsController : CustomBaseController
     {
         private readonly IWatchService _watchService;

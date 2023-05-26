@@ -15,3 +15,5 @@ C:\Users\dmlnr\source\repos\NLayer-senior\NLayer.Service\obj\Debug\net7.0\NLayer
 C:\Users\dmlnr\source\repos\NLayer-senior\NLayer.Service\obj\Debug\net7.0\refint\NLayer.Service.dll
 C:\Users\dmlnr\source\repos\NLayer-senior\NLayer.Service\obj\Debug\net7.0\NLayer.Service.pdb
 C:\Users\dmlnr\source\repos\NLayer-senior\NLayer.Service\obj\Debug\net7.0\ref\NLayer.Service.dll
+C:\Users\dmlnr\source\repos\NLayer-senior\NLayer.Service\bin\Debug\net7.0\SharedLibrary.dll
+C:\Users\dmlnr\source\repos\NLayer-senior\NLayer.Service\bin\Debug\net7.0\SharedLibrary.pdb

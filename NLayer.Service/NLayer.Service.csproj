@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\NLayer.Repository\NLayer.Repository.csproj" />
+    <ProjectReference Include="..\SharedLibrary\SharedLibrary.csproj" />
   </ItemGroup>
 
 </Project>

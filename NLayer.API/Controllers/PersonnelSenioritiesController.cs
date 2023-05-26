@@ -1,10 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using NLayer.Core.Repositories;
 using NLayer.Core.Services;
 using NLayer.Service.Services;
 
 namespace NLayer.API.Controllers
 {
+    [Authorize]
     public class PersonnelSenioritiesController : CustomBaseController
     {
         private readonly IPersonnelSeniorityService _personnelSeniorityService;

@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using NLayer.API.Filters;
@@ -11,6 +12,7 @@ using NLayer.Service.Services;
 
 namespace NLayer.API.Controllers
 {
+    [Authorize]
     public class PersonnelsController : CustomBaseController
     {
         private readonly IMapper _mapper;
